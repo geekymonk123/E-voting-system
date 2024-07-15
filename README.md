@@ -29,8 +29,8 @@ The entire work is shown from two perspectives: voter registration whose process
 
 <img src ="https://github.com/geekymonk123/E-voting-system/blob/main/voter%20reg.jpg" alt="MLBC">
 
-** Fig. 1. Process Diagram of Voter Registration **
+**Fig. 1. Process Diagram of Voter Registration**
 
 <img src="https://github.com/geekymonk123/E-voting-system/blob/main/vote_poling.jpg" alt="MLBC">
 
-** Fig. 2. Process Diagram of Vote Polling**
+**Fig. 2. Process Diagram of Vote Polling**
