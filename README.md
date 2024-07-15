@@ -55,11 +55,11 @@ At the time of voter registration, the image captured is converted into 100 gray
 
 **Fig. 3. Capturing 100 grayscale images**
 
-<img src="" alt="MLBC">
+<img src="https://github.com/geekymonk123/E-voting-system/blob/main/Face_XML.jpg" alt="MLBC">
 
 **Fig. 4. 100 images are stored in an XML file**
 
-<img src="" alt="MLBC">
+<img src="https://github.com/geekymonk123/E-voting-system/blob/main/Face_authentication.jpg" alt="MLBC">
 
 **Fig. 5. Face authentication of registered and unregistered voters**
 
