@@ -15,3 +15,14 @@ The user/voter will be able to login to the system with their Voter Id and Aadha
 
 **• No location dependency:** Eligible voter can caste his/her vote from any location across the world provided he/she is authenticated by the system through the three-step process.
 Moreover, for faster face recognition the training images are stored following a nu-meric nomenclature that reduces the search space drastically.
+
+##  Proposed Methodology
+This research work presents a three-level security based electronic voting system. These levels are described below:
+
+**• Level 1: Unique Voter ID and Aadhaar ID verification:** At the time of voter reg-istration, system will request for the unique Voter ID and Aadhaar ID from the voter. The entered unique ids are verified from the government records and stored in local Registered Voter Database (RVD). At the time of vote polling, voters need to enter the unique IDs once again which are verified against the local RVD.
+
+**• Level 2: OTP verification:** During the voter registration process, user needs to enter a mobile number for OTP verification purpose which gets stored in the local RVD. At the time of vote polling, OTP is sent to the registered mobile number which if correctly matches then the voter can enter to the face recognition panel.
+
+**• Level 3: Face recognition:**  During voter registration, the system captures user im-age through webcam. This captured image is converted into 100 gray scale images where each image is named as VoterID_number.i where i=1 to 100. All these images are stored in a XML file for all registered voters. This file containing the face data is used for training the algorithm used for face detection and recognition. At the time of vote polling, when the voter is directed to the face recognition panel, webcam captures real-time image and then using Haar Casacade Classifier Algorithm face is detected. This process is carried out very fast at real-time as it needs to check with only 100 images against each voter and those images are stored using numeric no-menclature based on voter id number. After this, applying Local Binary Pattern Histogram (LBPH) Algorithm on the detected face, if a voter is correctly recognized by matching with the trained face dataset, a green rectangle appears and the voter is allowed to successfully log into the system. Otherwise, if face detection and recog-nition fail, a red rectangle around the face appears and the voter is denied to access the system.
+
+The entire work is shown from two perspectives: voter registration whose process diagram is shown in Fig.1 and vote polling whose process diagram is depicted in Fig. 2.
