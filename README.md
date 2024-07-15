@@ -51,6 +51,18 @@ Local Binary Pattern (LBP) is a simple yet very efficient texture operator which
 
 At the time of voter registration, the image captured is converted into 100 grayscale images and stored in an XML file for each user which is show in Fig. 3. A part of this facial dataset is shown in Fig. 4. The system trains the algorithm based on this training face dataset. At the time of vote polling, when webcam opens to capture real-time image of voter, the system checks with this dataset for facial recognition and hence voter is authenticated and allowed to cast vote. If a voter is authenticated by the system, voter’s face is surrounded by a green rectangle, otherwise a red rectangle as shown in Fig. 5.
 
+<img src="https://github.com/geekymonk123/E-voting-system/blob/main/Train_face.jpg" alt="MLBC">
+
+**Fig. 3. Capturing 100 grayscale images**
+
+<img src="" alt="MLBC">
+
+**Fig. 4. 100 images are stored in an XML file**
+
+<img src="" alt="MLBC">
+
+**Fig. 5. Face authentication of registered and unregistered voters**
+
 
 
 
