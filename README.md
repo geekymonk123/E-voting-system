@@ -45,7 +45,7 @@ It is an object detection algorithm used to iden-tify faces in an image or real 
 
 Local Binary Pattern (LBP) is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighbourhood of each pixel and considers the result as a binary number. Using the LBP combined with histograms we can represent the face images with a simple data vector. As LBP is a visual descriptor it can also be used for face recognition tasks.
 
-<img src=""
+<img src="https://github.com/geekymonk123/E-voting-system/blob/main/LBP.jpg" alt="MLBC">
 
 
 
