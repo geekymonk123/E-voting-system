@@ -39,4 +39,14 @@ The entire work is shown from two perspectives: voter registration whose process
 
 It is an object detection algorithm used to iden-tify faces in an image or real time video and uses edge or line detection features. The algorithm is provided with many positive images that consists of faces, and many neg-ative images that do not consist of faces to train. In the repository the models are stored in XML files. The first contribution to the research was the introduction of the haar features on the image, which make it easier to find out the edges or lines in the image, or select areas where the pixel intensities suddenly change. The darker areas in the haar feature are pixels with a value 1, and the lighter areas are pixels with a value 0. Each of these is responsible for finding out a specific feature in the image, for example an edge, a line or any structure in the image where there is a sudden change of intensities. The goal here is to determine the sum of all image pixels that are in darker area of the haar feature and the sum of all the image pixels that are in the lighter area of the haar feature and then to find out their difference. A flow diagram of Haar Cascade Classifier Algo-rithm for face detection is shown in Fig. 3.
 
+<img src="https://github.com/geekymonk123/E-voting-system/blob/main/Haar%20Cascade%20Classifier.jpg" alt="MLBC">
+
+## Local Binary Pattern Histogram Algorithm
+
+Local Binary Pattern (LBP) is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighbourhood of each pixel and considers the result as a binary number. Using the LBP combined with histograms we can represent the face images with a simple data vector. As LBP is a visual descriptor it can also be used for face recognition tasks.
+
+<img src=""
+
+
+
 
