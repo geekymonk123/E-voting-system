@@ -27,5 +27,6 @@ This research work presents a three-level security based electronic voting syste
 
 The entire work is shown from two perspectives: voter registration whose process diagram is shown in Fig.1 and vote polling whose process diagram is depicted in Fig. 2.
 
-<img src ="https://github.com/geekymonk123/E-voting-system/blob/main/voter%20reg.jpg" alt="MLBC">
+<img src ="https://drive.google.com/file/d/1CxYuG-TqGOsAv9qKxuZlElb1lmglWY70/view?usp=sharing" alt="MLBC">
+
 ** Fig. 1. Process Diagram of Voter Registration **
